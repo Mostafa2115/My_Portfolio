@@ -344,11 +344,9 @@ footer {
   box-shadow: 0 0 10px #ffffff;
 }
 
-
-
 @media (max-width: 1024px) {
   .hero {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
 
@@ -366,12 +364,28 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .languages, .tools {
+  .languages,
+  .tools {
     width: 80%;
   }
 
   form {
     max-width: 90%;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -417,19 +431,29 @@ footer {
     font-size: 14px;
   }
 
-  .languages, .tools {
+  .languages,
+  .tools {
     width: 100%;
   }
 
   .navbar {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .nav-links {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row; 
     gap: 10px;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
