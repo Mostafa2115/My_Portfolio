@@ -384,7 +384,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
 }
@@ -447,7 +447,7 @@ footer {
     display: flex;
     flex-direction: row; 
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
 
@@ -456,6 +456,7 @@ footer {
     text-align: center;
   }
 }
+
 
 
 
