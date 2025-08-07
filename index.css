@@ -384,11 +384,13 @@ footer {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px; 
-  flex-wrap: wrap; 
-  padding: 0 10px;
+  gap: 10px;
+  flex-wrap: nowrap; 
+  overflow-x: auto;   
+  white-space: nowrap;
   max-width: 100%;
   box-sizing: border-box;
+  padding: 0 10px;
 }
 
 }
@@ -451,11 +453,17 @@ footer {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px; 
-  flex-wrap: wrap; 
-  padding: 0 10px;
+  gap: 10px;
+  flex-wrap: nowrap; 
+  overflow-x: auto;   
+  white-space: nowrap;
   max-width: 100%;
   box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.nav-links a {
+  font-size: 12px;
 }
 
 
@@ -464,6 +472,7 @@ footer {
     text-align: center;
   }
 }
+
 
 
 
