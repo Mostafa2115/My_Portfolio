@@ -463,7 +463,8 @@ footer {
 }
 
 .nav-links a {
-  font-size: 5px;
+  font-size: 8px;
+  padding: 3px 5px;
 } 
 
 
@@ -472,6 +473,7 @@ footer {
     text-align: center;
   }
 }
+
 
 
 
