@@ -381,12 +381,16 @@ footer {
 
 .nav-links {
   display: flex;
-  flex-direction: row;     
-  justify-content: flex-end; 
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
-  gap: 20px;
-  flex-wrap: nowrap;      
+  gap: 10px; 
+  flex-wrap: wrap; 
+  padding: 0 10px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
+
 }
 
 @media (max-width: 600px) {
@@ -444,18 +448,23 @@ footer {
 
 .nav-links {
   display: flex;
-  flex-direction: row;     
-  justify-content: flex-end; 
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
-  gap: 20px;
-  flex-wrap: nowrap;      
+  gap: 10px; 
+  flex-wrap: wrap; 
+  padding: 0 10px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
+
 
   .hero {
     flex-direction: column;
     text-align: center;
   }
 }
+
 
 
 
